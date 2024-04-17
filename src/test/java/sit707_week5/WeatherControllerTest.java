@@ -87,4 +87,9 @@ public class WeatherControllerTest {
         // Should be equal to the average value that is cached in the controller.
         Assert.assertEquals(averageTemp, wController.getTemperatureAverageFromCache(), 0.01);
     }
+    
+    @Test
+	public void testTemperaturePersist() {
+		
+	}
 }
